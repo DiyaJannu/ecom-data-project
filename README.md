@@ -6,7 +6,7 @@ This project generates synthetic e-commerce data, ingests it into a SQLite datab
 
 ## 📁 Project Structure
 
-ecom-data-project/ ├── data/ # Generated CSV files ├── scripts/ # Python scripts │ ├── generate_data.py │ ├── ingest_to_sqlite.py │ └── query_data.py ├── ecom.db # SQLite database (created by script) ├── .gitignore └── README.md
+<img width="774" height="471" alt="image" src="https://github.com/user-attachments/assets/0b083e9a-36fd-4547-b607-9651638fc721" />
 
 ## 🚀 How to Run
 
@@ -14,11 +14,26 @@ ecom-data-project/ ├── data/ # Generated CSV files ├── scripts/ # Py
 ```bash
 python scripts/generate_data.py
 
+## 🚀 How to Run
+
 ### 2. Ingest Data into SQLite
+Loads the CSVs into a SQLite database (`ecom.db`).
+
 ```bash
 python scripts/ingest_to_sqlite.py
+### 3. to run query
 
-### 3. Run SQL Query
-```bash
 python scripts/query_data.py
+
+## 📊 Sample Output
+
+```text
+customer_name order_date product_name  quantity  total_price
+0    John Doe   2023-11-01  Headphones         2       299.98
+1  Jane Smith   2023-10-15      T-Shirt        1        19.99
+2  Rahul Verma  2023-09-22        Book         3        45.00
+
+### 🔹 Screenshot
+<img width="652" height="140" alt="image" src="https://github.com/user-attachments/assets/e533a024-58b1-4f19-bfdc-d2232bc73601" />
+
 
