@@ -33,7 +33,8 @@ customer_name order_date product_name  quantity  total_price
 1  Jane Smith   2023-10-15      T-Shirt        1        19.99
 2  Rahul Verma  2023-09-22        Book         3        45.00
 
-### 🔹 Screenshot
-<img width="652" height="140" alt="image" src="https://github.com/user-attachments/assets/e533a024-58b1-4f19-bfdc-d2232bc73601" />
+
+
+
 
 
