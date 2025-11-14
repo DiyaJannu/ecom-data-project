@@ -10,22 +10,24 @@ This project generates synthetic e-commerce data, ingests it into a SQLite datab
 
 ## 🚀 How to Run
 
-### 1. Generate Synthetic Data
-```bash
-python scripts/generate_data.py
+ 1. ***Generate Synthetic Data**
+    ```bash
+    python scripts/generate_data.py
 
-## 🚀 How to Run
 
-### 2. Ingest Data into SQLite
-Loads the CSVs into a SQLite database (`ecom.db`).
 
-```bash
-python scripts/ingest_to_sqlite.py
-### 3. to run query
+ 2. **Ingest Data into SQLite**
+    Loads the CSVs into a SQLite database 
+      ```bash
+    python scripts/ingest_to_sqlite.py
 
-python scripts/query_data.py
+ 3. to run query
+     ```bash
+    python scripts/query_data.py
 
-## 📊 Sample Output
+
+
+### 📊 Sample Output
 
 ```text
 customer_name order_date product_name  quantity  total_price
